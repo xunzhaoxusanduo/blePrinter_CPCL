@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF429B41CBD5AA300B726BB /* blePrinterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429B31CBD5AA300B726BB /* blePrinterDemoTests.m */; };
+		4CF429BF1CBD5AA300B726BB /* blePrinterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429BE1CBD5AA300B726BB /* blePrinterDemoUITests.m */; };
+		4CF429D91CBD5AB500B726BB /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429CD1CBD5AB500B726BB /* 12.jpg */; };
+		4CF429DA1CBD5AB500B726BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429CF1CBD5AB500B726BB /* AppDelegate.m */; };
+		4CF429DB1CBD5AB500B726BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429D01CBD5AB500B726BB /* Assets.xcassets */; };
+		4CF429DC1CBD5AB500B726BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429D11CBD5AB500B726BB /* LaunchScreen.storyboard */; };
+		4CF429DD1CBD5AB500B726BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429D31CBD5AB500B726BB /* Main.storyboard */; };
+		4CF429DE1CBD5AB500B726BB /* erweima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429D51CBD5AB500B726BB /* erweima.jpg */; };
+		4CF429E01CBD5AB500B726BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429D71CBD5AB500B726BB /* main.m */; };
+		4CF429E11CBD5AB500B726BB /* print.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429D81CBD5AB500B726BB /* print.png */; };
+		4CF429E51CBD5B3300B726BB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF429E41CBD5B3300B726BB /* CoreBluetooth.framework */; };
+		4CF42A1B1CBD5BA100B726BB /* JQBaseLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429E91CBD5BA000B726BB /* JQBaseLine.m */; };
+		4CF42A1C1CBD5BA100B726BB /* JQBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429EB1CBD5BA000B726BB /* JQBox.m */; };
+		4CF42A1D1CBD5BA100B726BB /* JQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429ED1CBD5BA000B726BB /* JQLabel.m */; };
+		4CF42A1E1CBD5BA100B726BB /* JQLabelField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429EF1CBD5BA000B726BB /* JQLabelField.m */; };
+		4CF42A1F1CBD5BA100B726BB /* JQLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429F11CBD5BA000B726BB /* JQLine.m */; };
+		4CF42A201CBD5BA100B726BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF429F31CBD5BA000B726BB /* Info.plist */; };
+		4CF42A211CBD5BA100B726BB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429F51CBD5BA000B726BB /* MASCompositeConstraint.m */; };
+		4CF42A221CBD5BA100B726BB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429F81CBD5BA000B726BB /* MASConstraint.m */; };
+		4CF42A231CBD5BA100B726BB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429FA1CBD5BA000B726BB /* MASConstraintMaker.m */; };
+		4CF42A241CBD5BA100B726BB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF429FC1CBD5BA100B726BB /* MASLayoutConstraint.m */; };
+		4CF42A251CBD5BA100B726BB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A001CBD5BA100B726BB /* MASViewAttribute.m */; };
+		4CF42A261CBD5BA100B726BB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A021CBD5BA100B726BB /* MASViewConstraint.m */; };
+		4CF42A271CBD5BA100B726BB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A041CBD5BA100B726BB /* NSArray+MASAdditions.m */; };
+		4CF42A281CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A071CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		4CF42A291CBD5BA100B726BB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A091CBD5BA100B726BB /* View+MASAdditions.m */; };
+		4CF42A2A1CBD5BA100B726BB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A0C1CBD5BA100B726BB /* ViewController+MASAdditions.m */; };
+		4CF42A2B1CBD5BA100B726BB /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A0F1CBD5BA100B726BB /* MBProgressHUD+MJ.m */; };
+		4CF42A2C1CBD5BA100B726BB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A101CBD5BA100B726BB /* MBProgressHUD.bundle */; };
+		4CF42A2D1CBD5BA100B726BB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A121CBD5BA100B726BB /* MBProgressHUD.m */; };
+		4CF42A2E1CBD5BA100B726BB /* Default-568h@3x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A141CBD5BA100B726BB /* Default-568h@3x-1.png */; };
+		4CF42A2F1CBD5BA100B726BB /* QRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A161CBD5BA100B726BB /* QRCodeController.m */; };
+		4CF42A301CBD5BA100B726BB /* 使用说明.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A171CBD5BA100B726BB /* 使用说明.rtf */; };
+		4CF42A311CBD5BA100B726BB /* 扫描框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A181CBD5BA100B726BB /* 扫描框@2x.png */; };
+		4CF42A321CBD5BA100B726BB /* 扫描线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A191CBD5BA100B726BB /* 扫描线@2x.png */; };
+		4CF42A331CBD5BA100B726BB /* 白色返回_想去@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A1A1CBD5BA100B726BB /* 白色返回_想去@2x.png */; };
+		4CF42A391CBD5BC300B726BB /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A361CBD5BC300B726BB /* NSString+Extension.m */; };
+		4CF42A3A1CBD5BC300B726BB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A381CBD5BC300B726BB /* UIView+Extension.m */; };
+		4CF42A421CBD5BE300B726BB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A3D1CBD5BE300B726BB /* BaseNavigationController.m */; };
+		4CF42A431CBD5BE300B726BB /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A3F1CBD5BE300B726BB /* BaseTableViewController.m */; };
+		4CF42A441CBD5BE300B726BB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A411CBD5BE300B726BB /* BaseViewController.m */; };
+		4CF42A521CBD5BEF00B726BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A481CBD5BEF00B726BB /* MainViewController.m */; };
+		4CF42A531CBD5BEF00B726BB /* CollectionReusableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A4D1CBD5BEF00B726BB /* CollectionReusableHeaderView.m */; };
+		4CF42A541CBD5BEF00B726BB /* CollectionReusableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A4E1CBD5BEF00B726BB /* CollectionReusableHeaderView.xib */; };
+		4CF42A551CBD5BEF00B726BB /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A501CBD5BEF00B726BB /* CollectionViewCell.m */; };
+		4CF42A561CBD5BEF00B726BB /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF42A511CBD5BEF00B726BB /* CollectionViewCell.xib */; };
+		4CF42A621CBD5BFB00B726BB /* BleDeviceManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A5A1CBD5BFB00B726BB /* BleDeviceManagerViewController.m */; };
+		4CF42A631CBD5BFB00B726BB /* BleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A5D1CBD5BFB00B726BB /* BleInfo.m */; };
+		4CF42A641CBD5BFB00B726BB /* QPBleInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42A601CBD5BFB00B726BB /* QPBleInfoTool.m */; };
+		4CF42A661CBD5E9200B726BB /* JQBlePrinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF42A651CBD5E9100B726BB /* JQBlePrinter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF429B01CBD5AA300B726BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF4298E1CBD5AA200B726BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF429951CBD5AA200B726BB;
+			remoteInfo = blePrinterDemo;
+		};
+		4CF429BB1CBD5AA300B726BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF4298E1CBD5AA200B726BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF429951CBD5AA200B726BB;
+			remoteInfo = blePrinterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF429961CBD5AA200B726BB /* blePrinterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blePrinterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF429AA1CBD5AA200B726BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		4CF429AF1CBD5AA300B726BB /* blePrinterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blePrinterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF429B31CBD5AA300B726BB /* blePrinterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blePrinterDemoTests.m; sourceTree = "<group>"; };
+		4CF429B51CBD5AA300B726BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF429BA1CBD5AA300B726BB /* blePrinterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blePrinterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF429BE1CBD5AA300B726BB /* blePrinterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blePrinterDemoUITests.m; sourceTree = "<group>"; };
+		4CF429C01CBD5AA300B726BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF429CD1CBD5AB500B726BB /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		4CF429CE1CBD5AB500B726BB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CF429CF1CBD5AB500B726BB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF429D01CBD5AB500B726BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF429D21CBD5AB500B726BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF429D41CBD5AB500B726BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF429D51CBD5AB500B726BB /* erweima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erweima.jpg; sourceTree = "<group>"; };
+		4CF429D71CBD5AB500B726BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF429D81CBD5AB500B726BB /* print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = print.png; sourceTree = "<group>"; };
+		4CF429E41CBD5B3300B726BB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4CF429E81CBD5BA000B726BB /* JQBaseLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQBaseLine.h; sourceTree = "<group>"; };
+		4CF429E91CBD5BA000B726BB /* JQBaseLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQBaseLine.m; sourceTree = "<group>"; };
+		4CF429EA1CBD5BA000B726BB /* JQBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQBox.h; sourceTree = "<group>"; };
+		4CF429EB1CBD5BA000B726BB /* JQBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQBox.m; sourceTree = "<group>"; };
+		4CF429EC1CBD5BA000B726BB /* JQLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLabel.h; sourceTree = "<group>"; };
+		4CF429ED1CBD5BA000B726BB /* JQLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLabel.m; sourceTree = "<group>"; };
+		4CF429EE1CBD5BA000B726BB /* JQLabelField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLabelField.h; sourceTree = "<group>"; };
+		4CF429EF1CBD5BA000B726BB /* JQLabelField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLabelField.m; sourceTree = "<group>"; };
+		4CF429F01CBD5BA000B726BB /* JQLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLine.h; sourceTree = "<group>"; };
+		4CF429F11CBD5BA000B726BB /* JQLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLine.m; sourceTree = "<group>"; };
+		4CF429F31CBD5BA000B726BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF429F41CBD5BA000B726BB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4CF429F51CBD5BA000B726BB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4CF429F61CBD5BA000B726BB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		4CF429F71CBD5BA000B726BB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		4CF429F81CBD5BA000B726BB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		4CF429F91CBD5BA000B726BB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		4CF429FA1CBD5BA000B726BB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		4CF429FB1CBD5BA100B726BB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4CF429FC1CBD5BA100B726BB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		4CF429FD1CBD5BA100B726BB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		4CF429FE1CBD5BA100B726BB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		4CF429FF1CBD5BA100B726BB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		4CF42A001CBD5BA100B726BB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4CF42A011CBD5BA100B726BB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		4CF42A021CBD5BA100B726BB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		4CF42A031CBD5BA100B726BB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF42A041CBD5BA100B726BB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF42A051CBD5BA100B726BB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4CF42A061CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		4CF42A071CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		4CF42A081CBD5BA100B726BB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF42A091CBD5BA100B726BB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF42A0A1CBD5BA100B726BB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4CF42A0B1CBD5BA100B726BB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF42A0C1CBD5BA100B726BB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF42A0E1CBD5BA100B726BB /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		4CF42A0F1CBD5BA100B726BB /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		4CF42A101CBD5BA100B726BB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		4CF42A111CBD5BA100B726BB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4CF42A121CBD5BA100B726BB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4CF42A141CBD5BA100B726BB /* Default-568h@3x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@3x-1.png"; sourceTree = "<group>"; };
+		4CF42A151CBD5BA100B726BB /* QRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeController.h; sourceTree = "<group>"; };
+		4CF42A161CBD5BA100B726BB /* QRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeController.m; sourceTree = "<group>"; };
+		4CF42A171CBD5BA100B726BB /* 使用说明.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "使用说明.rtf"; sourceTree = "<group>"; };
+		4CF42A181CBD5BA100B726BB /* 扫描框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描框@2x.png"; sourceTree = "<group>"; };
+		4CF42A191CBD5BA100B726BB /* 扫描线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描线@2x.png"; sourceTree = "<group>"; };
+		4CF42A1A1CBD5BA100B726BB /* 白色返回_想去@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白色返回_想去@2x.png"; sourceTree = "<group>"; };
+		4CF42A351CBD5BC300B726BB /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		4CF42A361CBD5BC300B726BB /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		4CF42A371CBD5BC300B726BB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4CF42A381CBD5BC300B726BB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4CF42A3C1CBD5BE300B726BB /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		4CF42A3D1CBD5BE300B726BB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		4CF42A3E1CBD5BE300B726BB /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		4CF42A3F1CBD5BE300B726BB /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		4CF42A401CBD5BE300B726BB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4CF42A411CBD5BE300B726BB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4CF42A471CBD5BEF00B726BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4CF42A481CBD5BEF00B726BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4CF42A4C1CBD5BEF00B726BB /* CollectionReusableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeaderView.h; sourceTree = "<group>"; };
+		4CF42A4D1CBD5BEF00B726BB /* CollectionReusableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeaderView.m; sourceTree = "<group>"; };
+		4CF42A4E1CBD5BEF00B726BB /* CollectionReusableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionReusableHeaderView.xib; sourceTree = "<group>"; };
+		4CF42A4F1CBD5BEF00B726BB /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		4CF42A501CBD5BEF00B726BB /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		4CF42A511CBD5BEF00B726BB /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		4CF42A591CBD5BFB00B726BB /* BleDeviceManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleDeviceManagerViewController.h; sourceTree = "<group>"; };
+		4CF42A5A1CBD5BFB00B726BB /* BleDeviceManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleDeviceManagerViewController.m; sourceTree = "<group>"; };
+		4CF42A5C1CBD5BFB00B726BB /* BleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleInfo.h; sourceTree = "<group>"; };
+		4CF42A5D1CBD5BFB00B726BB /* BleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleInfo.m; sourceTree = "<group>"; };
+		4CF42A5F1CBD5BFB00B726BB /* QPBleInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPBleInfoTool.h; sourceTree = "<group>"; };
+		4CF42A601CBD5BFB00B726BB /* QPBleInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPBleInfoTool.m; sourceTree = "<group>"; };
+		4CF42A651CBD5E9100B726BB /* JQBlePrinter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JQBlePrinter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF429931CBD5AA200B726BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF42A661CBD5E9200B726BB /* JQBlePrinter.framework in Frameworks */,
+				4CF429E51CBD5B3300B726BB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429AC1CBD5AA300B726BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429B71CBD5AA300B726BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CEEEE7D1CBDC226007F74F3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429E41CBD5B3300B726BB /* CoreBluetooth.framework */,
+				4CF42A651CBD5E9100B726BB /* JQBlePrinter.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		4CF4298D1CBD5AA200B726BB = {
+			isa = PBXGroup;
+			children = (
+				4CF429981CBD5AA200B726BB /* blePrinterDemo */,
+				4CEEEE7D1CBDC226007F74F3 /* Framework */,
+				4CF429B21CBD5AA300B726BB /* blePrinterDemoTests */,
+				4CF429BD1CBD5AA300B726BB /* blePrinterDemoUITests */,
+				4CF429971CBD5AA200B726BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF429971CBD5AA200B726BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429961CBD5AA200B726BB /* blePrinterDemo.app */,
+				4CF429AF1CBD5AA300B726BB /* blePrinterDemoTests.xctest */,
+				4CF429BA1CBD5AA300B726BB /* blePrinterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF429981CBD5AA200B726BB /* blePrinterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A3B1CBD5BE300B726BB /* BaseController */,
+				4CF42A341CBD5BC300B726BB /* Category */,
+				4CF429E61CBD5BA000B726BB /* Library */,
+				4CF42A451CBD5BEF00B726BB /* 主页 */,
+				4CF42A571CBD5BFB00B726BB /* 设备管理 */,
+				4CF429CC1CBD5AB500B726BB /* Other */,
+			);
+			path = blePrinterDemo;
+			sourceTree = "<group>";
+		};
+		4CF429B21CBD5AA300B726BB /* blePrinterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429B31CBD5AA300B726BB /* blePrinterDemoTests.m */,
+				4CF429B51CBD5AA300B726BB /* Info.plist */,
+			);
+			path = blePrinterDemoTests;
+			sourceTree = "<group>";
+		};
+		4CF429BD1CBD5AA300B726BB /* blePrinterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429BE1CBD5AA300B726BB /* blePrinterDemoUITests.m */,
+				4CF429C01CBD5AA300B726BB /* Info.plist */,
+			);
+			path = blePrinterDemoUITests;
+			sourceTree = "<group>";
+		};
+		4CF429CC1CBD5AB500B726BB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429CD1CBD5AB500B726BB /* 12.jpg */,
+				4CF429CE1CBD5AB500B726BB /* AppDelegate.h */,
+				4CF429CF1CBD5AB500B726BB /* AppDelegate.m */,
+				4CF429D01CBD5AB500B726BB /* Assets.xcassets */,
+				4CF429D11CBD5AB500B726BB /* LaunchScreen.storyboard */,
+				4CF429D31CBD5AB500B726BB /* Main.storyboard */,
+				4CF429AA1CBD5AA200B726BB /* Info.plist */,
+				4CF429D51CBD5AB500B726BB /* erweima.jpg */,
+				4CF429D71CBD5AB500B726BB /* main.m */,
+				4CF429D81CBD5AB500B726BB /* print.png */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4CF429E61CBD5BA000B726BB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429E71CBD5BA000B726BB /* JQBlePrint */,
+				4CF429F21CBD5BA000B726BB /* Masonry */,
+				4CF42A0D1CBD5BA100B726BB /* MBProgressHUD */,
+				4CF42A131CBD5BA100B726BB /* QRcode */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4CF429E71CBD5BA000B726BB /* JQBlePrint */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429E81CBD5BA000B726BB /* JQBaseLine.h */,
+				4CF429E91CBD5BA000B726BB /* JQBaseLine.m */,
+				4CF429EA1CBD5BA000B726BB /* JQBox.h */,
+				4CF429EB1CBD5BA000B726BB /* JQBox.m */,
+				4CF429EC1CBD5BA000B726BB /* JQLabel.h */,
+				4CF429ED1CBD5BA000B726BB /* JQLabel.m */,
+				4CF429EE1CBD5BA000B726BB /* JQLabelField.h */,
+				4CF429EF1CBD5BA000B726BB /* JQLabelField.m */,
+				4CF429F01CBD5BA000B726BB /* JQLine.h */,
+				4CF429F11CBD5BA000B726BB /* JQLine.m */,
+			);
+			path = JQBlePrint;
+			sourceTree = "<group>";
+		};
+		4CF429F21CBD5BA000B726BB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4CF429F31CBD5BA000B726BB /* Info.plist */,
+				4CF429F41CBD5BA000B726BB /* MASCompositeConstraint.h */,
+				4CF429F51CBD5BA000B726BB /* MASCompositeConstraint.m */,
+				4CF429F61CBD5BA000B726BB /* MASConstraint+Private.h */,
+				4CF429F71CBD5BA000B726BB /* MASConstraint.h */,
+				4CF429F81CBD5BA000B726BB /* MASConstraint.m */,
+				4CF429F91CBD5BA000B726BB /* MASConstraintMaker.h */,
+				4CF429FA1CBD5BA000B726BB /* MASConstraintMaker.m */,
+				4CF429FB1CBD5BA100B726BB /* MASLayoutConstraint.h */,
+				4CF429FC1CBD5BA100B726BB /* MASLayoutConstraint.m */,
+				4CF429FD1CBD5BA100B726BB /* Masonry.h */,
+				4CF429FE1CBD5BA100B726BB /* MASUtilities.h */,
+				4CF429FF1CBD5BA100B726BB /* MASViewAttribute.h */,
+				4CF42A001CBD5BA100B726BB /* MASViewAttribute.m */,
+				4CF42A011CBD5BA100B726BB /* MASViewConstraint.h */,
+				4CF42A021CBD5BA100B726BB /* MASViewConstraint.m */,
+				4CF42A031CBD5BA100B726BB /* NSArray+MASAdditions.h */,
+				4CF42A041CBD5BA100B726BB /* NSArray+MASAdditions.m */,
+				4CF42A051CBD5BA100B726BB /* NSArray+MASShorthandAdditions.h */,
+				4CF42A061CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				4CF42A071CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				4CF42A081CBD5BA100B726BB /* View+MASAdditions.h */,
+				4CF42A091CBD5BA100B726BB /* View+MASAdditions.m */,
+				4CF42A0A1CBD5BA100B726BB /* View+MASShorthandAdditions.h */,
+				4CF42A0B1CBD5BA100B726BB /* ViewController+MASAdditions.h */,
+				4CF42A0C1CBD5BA100B726BB /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		4CF42A0D1CBD5BA100B726BB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A0E1CBD5BA100B726BB /* MBProgressHUD+MJ.h */,
+				4CF42A0F1CBD5BA100B726BB /* MBProgressHUD+MJ.m */,
+				4CF42A101CBD5BA100B726BB /* MBProgressHUD.bundle */,
+				4CF42A111CBD5BA100B726BB /* MBProgressHUD.h */,
+				4CF42A121CBD5BA100B726BB /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4CF42A131CBD5BA100B726BB /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A141CBD5BA100B726BB /* Default-568h@3x-1.png */,
+				4CF42A151CBD5BA100B726BB /* QRCodeController.h */,
+				4CF42A161CBD5BA100B726BB /* QRCodeController.m */,
+				4CF42A171CBD5BA100B726BB /* 使用说明.rtf */,
+				4CF42A181CBD5BA100B726BB /* 扫描框@2x.png */,
+				4CF42A191CBD5BA100B726BB /* 扫描线@2x.png */,
+				4CF42A1A1CBD5BA100B726BB /* 白色返回_想去@2x.png */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		4CF42A341CBD5BC300B726BB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A351CBD5BC300B726BB /* NSString+Extension.h */,
+				4CF42A361CBD5BC300B726BB /* NSString+Extension.m */,
+				4CF42A371CBD5BC300B726BB /* UIView+Extension.h */,
+				4CF42A381CBD5BC300B726BB /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4CF42A3B1CBD5BE300B726BB /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A3C1CBD5BE300B726BB /* BaseNavigationController.h */,
+				4CF42A3D1CBD5BE300B726BB /* BaseNavigationController.m */,
+				4CF42A3E1CBD5BE300B726BB /* BaseTableViewController.h */,
+				4CF42A3F1CBD5BE300B726BB /* BaseTableViewController.m */,
+				4CF42A401CBD5BE300B726BB /* BaseViewController.h */,
+				4CF42A411CBD5BE300B726BB /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		4CF42A451CBD5BEF00B726BB /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A461CBD5BEF00B726BB /* Controller */,
+				4CF42A491CBD5BEF00B726BB /* Model */,
+				4CF42A4A1CBD5BEF00B726BB /* Tool */,
+				4CF42A4B1CBD5BEF00B726BB /* View */,
+			);
+			name = "主页";
+			path = "Library/主页";
+			sourceTree = "<group>";
+		};
+		4CF42A461CBD5BEF00B726BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A471CBD5BEF00B726BB /* MainViewController.h */,
+				4CF42A481CBD5BEF00B726BB /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF42A491CBD5BEF00B726BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF42A4A1CBD5BEF00B726BB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4CF42A4B1CBD5BEF00B726BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A4C1CBD5BEF00B726BB /* CollectionReusableHeaderView.h */,
+				4CF42A4D1CBD5BEF00B726BB /* CollectionReusableHeaderView.m */,
+				4CF42A4E1CBD5BEF00B726BB /* CollectionReusableHeaderView.xib */,
+				4CF42A4F1CBD5BEF00B726BB /* CollectionViewCell.h */,
+				4CF42A501CBD5BEF00B726BB /* CollectionViewCell.m */,
+				4CF42A511CBD5BEF00B726BB /* CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF42A571CBD5BFB00B726BB /* 设备管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A581CBD5BFB00B726BB /* Controller */,
+				4CF42A5B1CBD5BFB00B726BB /* Model */,
+				4CF42A5E1CBD5BFB00B726BB /* Tool */,
+				4CF42A611CBD5BFB00B726BB /* View */,
+			);
+			name = "设备管理";
+			path = "Library/主页/设备管理";
+			sourceTree = "<group>";
+		};
+		4CF42A581CBD5BFB00B726BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A591CBD5BFB00B726BB /* BleDeviceManagerViewController.h */,
+				4CF42A5A1CBD5BFB00B726BB /* BleDeviceManagerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF42A5B1CBD5BFB00B726BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A5C1CBD5BFB00B726BB /* BleInfo.h */,
+				4CF42A5D1CBD5BFB00B726BB /* BleInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF42A5E1CBD5BFB00B726BB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42A5F1CBD5BFB00B726BB /* QPBleInfoTool.h */,
+				4CF42A601CBD5BFB00B726BB /* QPBleInfoTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4CF42A611CBD5BFB00B726BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF429951CBD5AA200B726BB /* blePrinterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF429C31CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemo" */;
+			buildPhases = (
+				4CF429921CBD5AA200B726BB /* Sources */,
+				4CF429931CBD5AA200B726BB /* Frameworks */,
+				4CF429941CBD5AA200B726BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blePrinterDemo;
+			productName = blePrinterDemo;
+			productReference = 4CF429961CBD5AA200B726BB /* blePrinterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF429AE1CBD5AA300B726BB /* blePrinterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF429C61CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemoTests" */;
+			buildPhases = (
+				4CF429AB1CBD5AA300B726BB /* Sources */,
+				4CF429AC1CBD5AA300B726BB /* Frameworks */,
+				4CF429AD1CBD5AA300B726BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF429B11CBD5AA300B726BB /* PBXTargetDependency */,
+			);
+			name = blePrinterDemoTests;
+			productName = blePrinterDemoTests;
+			productReference = 4CF429AF1CBD5AA300B726BB /* blePrinterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF429B91CBD5AA300B726BB /* blePrinterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF429C91CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemoUITests" */;
+			buildPhases = (
+				4CF429B61CBD5AA300B726BB /* Sources */,
+				4CF429B71CBD5AA300B726BB /* Frameworks */,
+				4CF429B81CBD5AA300B726BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF429BC1CBD5AA300B726BB /* PBXTargetDependency */,
+			);
+			name = blePrinterDemoUITests;
+			productName = blePrinterDemoUITests;
+			productReference = 4CF429BA1CBD5AA300B726BB /* blePrinterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF4298E1CBD5AA200B726BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wuyaju;
+				TargetAttributes = {
+					4CF429951CBD5AA200B726BB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9WK9Q7PLC5;
+					};
+					4CF429AE1CBD5AA300B726BB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CF429951CBD5AA200B726BB;
+					};
+					4CF429B91CBD5AA300B726BB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CF429951CBD5AA200B726BB;
+					};
+				};
+			};
+			buildConfigurationList = 4CF429911CBD5AA200B726BB /* Build configuration list for PBXProject "blePrinterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF4298D1CBD5AA200B726BB;
+			productRefGroup = 4CF429971CBD5AA200B726BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF429951CBD5AA200B726BB /* blePrinterDemo */,
+				4CF429AE1CBD5AA300B726BB /* blePrinterDemoTests */,
+				4CF429B91CBD5AA300B726BB /* blePrinterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF429941CBD5AA200B726BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF42A331CBD5BA100B726BB /* 白色返回_想去@2x.png in Resources */,
+				4CF42A2E1CBD5BA100B726BB /* Default-568h@3x-1.png in Resources */,
+				4CF42A541CBD5BEF00B726BB /* CollectionReusableHeaderView.xib in Resources */,
+				4CF429DD1CBD5AB500B726BB /* Main.storyboard in Resources */,
+				4CF42A2C1CBD5BA100B726BB /* MBProgressHUD.bundle in Resources */,
+				4CF429D91CBD5AB500B726BB /* 12.jpg in Resources */,
+				4CF42A311CBD5BA100B726BB /* 扫描框@2x.png in Resources */,
+				4CF429DE1CBD5AB500B726BB /* erweima.jpg in Resources */,
+				4CF429DC1CBD5AB500B726BB /* LaunchScreen.storyboard in Resources */,
+				4CF429E11CBD5AB500B726BB /* print.png in Resources */,
+				4CF42A321CBD5BA100B726BB /* 扫描线@2x.png in Resources */,
+				4CF42A301CBD5BA100B726BB /* 使用说明.rtf in Resources */,
+				4CF429DB1CBD5AB500B726BB /* Assets.xcassets in Resources */,
+				4CF42A201CBD5BA100B726BB /* Info.plist in Resources */,
+				4CF42A561CBD5BEF00B726BB /* CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429AD1CBD5AA300B726BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429B81CBD5AA300B726BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF429921CBD5AA200B726BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF42A2B1CBD5BA100B726BB /* MBProgressHUD+MJ.m in Sources */,
+				4CF42A621CBD5BFB00B726BB /* BleDeviceManagerViewController.m in Sources */,
+				4CF42A271CBD5BA100B726BB /* NSArray+MASAdditions.m in Sources */,
+				4CF42A3A1CBD5BC300B726BB /* UIView+Extension.m in Sources */,
+				4CF42A261CBD5BA100B726BB /* MASViewConstraint.m in Sources */,
+				4CF42A1B1CBD5BA100B726BB /* JQBaseLine.m in Sources */,
+				4CF42A231CBD5BA100B726BB /* MASConstraintMaker.m in Sources */,
+				4CF42A291CBD5BA100B726BB /* View+MASAdditions.m in Sources */,
+				4CF42A1D1CBD5BA100B726BB /* JQLabel.m in Sources */,
+				4CF42A2D1CBD5BA100B726BB /* MBProgressHUD.m in Sources */,
+				4CF42A221CBD5BA100B726BB /* MASConstraint.m in Sources */,
+				4CF42A1E1CBD5BA100B726BB /* JQLabelField.m in Sources */,
+				4CF42A441CBD5BE300B726BB /* BaseViewController.m in Sources */,
+				4CF42A251CBD5BA100B726BB /* MASViewAttribute.m in Sources */,
+				4CF42A2F1CBD5BA100B726BB /* QRCodeController.m in Sources */,
+				4CF42A281CBD5BA100B726BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				4CF42A391CBD5BC300B726BB /* NSString+Extension.m in Sources */,
+				4CF429E01CBD5AB500B726BB /* main.m in Sources */,
+				4CF42A521CBD5BEF00B726BB /* MainViewController.m in Sources */,
+				4CF42A211CBD5BA100B726BB /* MASCompositeConstraint.m in Sources */,
+				4CF42A241CBD5BA100B726BB /* MASLayoutConstraint.m in Sources */,
+				4CF42A631CBD5BFB00B726BB /* BleInfo.m in Sources */,
+				4CF42A1C1CBD5BA100B726BB /* JQBox.m in Sources */,
+				4CF42A1F1CBD5BA100B726BB /* JQLine.m in Sources */,
+				4CF42A641CBD5BFB00B726BB /* QPBleInfoTool.m in Sources */,
+				4CF42A531CBD5BEF00B726BB /* CollectionReusableHeaderView.m in Sources */,
+				4CF42A2A1CBD5BA100B726BB /* ViewController+MASAdditions.m in Sources */,
+				4CF42A421CBD5BE300B726BB /* BaseNavigationController.m in Sources */,
+				4CF42A431CBD5BE300B726BB /* BaseTableViewController.m in Sources */,
+				4CF42A551CBD5BEF00B726BB /* CollectionViewCell.m in Sources */,
+				4CF429DA1CBD5AB500B726BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429AB1CBD5AA300B726BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF429B41CBD5AA300B726BB /* blePrinterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF429B61CBD5AA300B726BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF429BF1CBD5AA300B726BB /* blePrinterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF429B11CBD5AA300B726BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF429951CBD5AA200B726BB /* blePrinterDemo */;
+			targetProxy = 4CF429B01CBD5AA300B726BB /* PBXContainerItemProxy */;
+		};
+		4CF429BC1CBD5AA300B726BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF429951CBD5AA200B726BB /* blePrinterDemo */;
+			targetProxy = 4CF429BB1CBD5AA300B726BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF429D11CBD5AB500B726BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF429D21CBD5AB500B726BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF429D31CBD5AB500B726BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF429D41CBD5AB500B726BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF429C11CBD5AA300B726BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF429C21CBD5AA300B726BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF429C41CBD5AA300B726BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = blePrinterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4CF429C51CBD5AA300B726BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = blePrinterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4CF429C71CBD5AA300B726BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = blePrinterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blePrinterDemo.app/blePrinterDemo";
+			};
+			name = Debug;
+		};
+		4CF429C81CBD5AA300B726BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = blePrinterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blePrinterDemo.app/blePrinterDemo";
+			};
+			name = Release;
+		};
+		4CF429CA1CBD5AA300B726BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = blePrinterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = blePrinterDemo;
+			};
+			name = Debug;
+		};
+		4CF429CB1CBD5AA300B726BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = blePrinterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyaju.blePrinterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = blePrinterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF429911CBD5AA200B726BB /* Build configuration list for PBXProject "blePrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF429C11CBD5AA300B726BB /* Debug */,
+				4CF429C21CBD5AA300B726BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF429C31CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF429C41CBD5AA300B726BB /* Debug */,
+				4CF429C51CBD5AA300B726BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF429C61CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF429C71CBD5AA300B726BB /* Debug */,
+				4CF429C81CBD5AA300B726BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF429C91CBD5AA300B726BB /* Build configuration list for PBXNativeTarget "blePrinterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF429CA1CBD5AA300B726BB /* Debug */,
+				4CF429CB1CBD5AA300B726BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF4298E1CBD5AA200B726BB /* Project object */;
+}
